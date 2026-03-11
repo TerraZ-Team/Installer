@@ -59,6 +59,7 @@ Source: "..\xnafx40_redist.msi"; DestDir: "{app}"; Flags: ignoreversion; Check: 
 Source: "..\Content\*"; DestDir: "{app}\Content\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\Content\*"; DestDir: "{app}\Content"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "Images\logo.xnb"
 Source: "logo.xnb"; DestDir: "{app}\Content\Images"; DestName: "logo.xnb"; Flags: ignoreversion
+Source: "logo2.xnb"; DestDir: "{app}\Content\Images"; DestName: "logo2.xnb"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 

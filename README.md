@@ -6,4 +6,4 @@
 - `src/script.iss` — основной скрипт Inno Setup.
 - `src/Terraria.ico` — иконка установщика/приложения.
 - `src/WizardImageFile.bmp`, `src/WizardSmallImageFile.bmp` — картинки мастера установки.
-- `src/logo.xnb` — ресурс логотипа TerraZ.
+- `src/logo.xnb`, `src/logo2.xnb` — ресурсы логотипа TerraZ.
